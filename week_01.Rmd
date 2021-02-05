@@ -142,6 +142,7 @@ m <- leaflet() %>%
     addTiles() %>% 
     addCircleMarkers(data = pts, label = ~htmlEscape(name))
 m
+#new line
 ```
 \    
 _`r figure_nums(name = "spaceneedle", caption = "A simple leaflet map with the Space Needle as a markerpoint")`_
